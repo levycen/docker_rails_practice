@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How run this project?
 
-Things you may want to cover:
+first download the project
 
-* Ruby version
+### Go into project folder
 
-* System dependencies
+```shell
+cd rails_app
+```
 
-* Configuration
+### Update shell (bash, zshell, etc.)
 
-* Database creation
+```shell
+echo 'export DOCKER_USER="$(id -u):$(id -g)"' >> ~/.zshrc
+source ~/.zshrc
+```
 
-* Database initialization
+### Create Image
 
-* How to run the test suite
+```shell
+docker build -t railsapp -t railsapp:1.1 .
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Run container
 
-* Deployment instructions
+```shell
+docker-compose up
+```
 
-* ...
+### Go to browser
+
+http://localhost:3001/
