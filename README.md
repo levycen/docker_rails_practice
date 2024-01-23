@@ -1,8 +1,14 @@
-# README
+# Basic Project on Ruby On Rail 💎 with Docker 🐳
 
-## How run this project?
+## How to run this project?
 
-first download the project
+A short guide on how to run this project.
+
+### Install Docker
+
+[Docker](https://www.docker.com/get-started)
+
+### Download the project
 
 ### Go into project folder
 
