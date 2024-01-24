@@ -12,10 +12,6 @@ A short guide on how to run this project.
 
 ### Go into project folder
 
-```shell
-cd rails_app
-```
-
 ### Update shell (bash, zshell, etc.)
 
 ```shell
